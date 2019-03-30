@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var textview: UITextView!
     
+    
+    @IBOutlet weak var viewBottom: UIView!
+    
     var imageName = String()
     var pageIndex = 0
     
@@ -118,6 +121,8 @@ class ViewController: UIViewController {
     }
     func setupUI(){
         container.backgroundColor =  UIColor.Flat.Blue.PictonBlue
+        viewBottom.backgroundColor = UIColor.Flat.Blue.Denim
+        textview.backgroundColor = UIColor.Flat.Gray.WhiteSmoke
         textview.isSelectable = false
         textview.isEditable = false
         
@@ -149,7 +154,15 @@ class ViewController: UIViewController {
         
         imagen.centerAnchor(centerX: container.centerXAnchor, centerY: container.centerYAnchor)
         
-        imagen.dimensionAnchors(height: container.heightAnchor, heightMultiplier: 0.5, width: nil)
+        imagen.dimensionAnchors(height: container.heightAnchor, heightMultiplier: 0.2, width: nil)
+        
+        
+        
+        viewBottom.anchor(
+            top: textview.bottomAnchor,
+            leading: view.leadingAnchor,
+            trailing: view.trailingAnchor,
+            bottom: view.bottomAnchor )
         
     }
 

@@ -14,6 +14,7 @@
 		893BFF9D224EDBCC00C6C07E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893BFF9B224EDBCC00C6C07E /* LaunchScreen.storyboard */; };
 		893BFFA5224EDBEB00C6C07E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BFFA4224EDBEB00C6C07E /* Extensions.swift */; };
 		893BFFA7224F068000C6C07E /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BFFA6224F068000C6C07E /* DriverViewController.swift */; };
+		89DCCF0A224FCBE700A1D3E0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DCCF09224FCBE700A1D3E0 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		893BFF9E224EDBCC00C6C07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		893BFFA4224EDBEB00C6C07E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		893BFFA6224F068000C6C07E /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		89DCCF09224FCBE700A1D3E0 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				893BFF9B224EDBCC00C6C07E /* LaunchScreen.storyboard */,
 				893BFF9E224EDBCC00C6C07E /* Info.plist */,
 				893BFFA4224EDBEB00C6C07E /* Extensions.swift */,
+				89DCCF09224FCBE700A1D3E0 /* ViewController2.swift */,
 			);
 			path = AutoLayout2;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DCCF0A224FCBE700A1D3E0 /* ViewController2.swift in Sources */,
 				893BFFA7224F068000C6C07E /* DriverViewController.swift in Sources */,
 				893BFF95224EDBCA00C6C07E /* ViewController.swift in Sources */,
 				893BFFA5224EDBEB00C6C07E /* Extensions.swift in Sources */,
