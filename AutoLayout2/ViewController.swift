@@ -154,7 +154,7 @@ class ViewController: UIViewController {
         
         imagen.centerAnchor(centerX: container.centerXAnchor, centerY: container.centerYAnchor)
         
-        imagen.dimensionAnchors(height: container.heightAnchor, heightMultiplier: 0.2, width: nil)
+        imagen.dimensionAnchors(height: container.heightAnchor, heightMultiplier: 0.25, width: nil)
         
         
         
